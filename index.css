@@ -1,0 +1,143 @@
+.parent{
+    display: flex;
+    background-color: rgb(65, 133, 221);
+    height: 50px;
+   
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.item{
+    
+    width: 30vmax;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+
+.two{
+    width: 45vmax;
+    color: yellow;
+    font-size: 1.5rem;
+
+}
+
+#one{
+   font-size: 150%;
+   color: white
+}
+
+.color{
+    color: red;
+}
+
+.button{
+    background-color: rgb(65, 133, 221);; 
+    color: black; 
+    border: 2px solid white;
+    padding: 2vh 2.2vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+.button-hover{
+    background-color: yellow;
+}
+
+.button-click{
+    background-color: rgba(255, 8, 0, 0.651);
+    color: white;
+}
+
+.textshadow{
+    text-shadow: 1px 1px black;
+}
+
+.item:nth-child(1){
+    border-style: none;
+    
+}
+
+.para{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(66, 124, 145, 0.356);
+    border-radius: 5px;
+    -moz-box-shadow: 1px 1px 5px rgb(107, 107, 107);
+    -webkit-box-shadow: 1px 1px 5px rgb(116, 116, 116);
+    box-shadow: 1px 1px 5px rgb(126, 126, 126);
+}
+
+#para{
+    padding:1vw 1vw 1vw 1vw;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(14, 67, 138);
+}
+
+.list{
+    background-color: rgba(66, 124, 145, 0.356);
+    margin-right: auto;
+    margin-left: auto;
+    -moz-box-shadow: 1px 1px 5px rgb(107, 107, 107);
+    -webkit-box-shadow: 1px 1px 5px rgb(116, 116, 116);
+    box-shadow: 1px 1px 5px rgb(126, 126, 126);
+}
+
+.list-hover{
+    background-color:rgba(45, 88, 104, 0.356);
+    margin-left: -10px;
+    width: 80%;
+    color: white
+}
+
+.one-para{
+    font-size: 120%;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    background-color: rgba(66, 124, 145, 0.356);
+    -moz-box-shadow: 1px 1px 5px rgb(107, 107, 107);
+    -webkit-box-shadow: 1px 1px 5px rgb(116, 116, 116);
+    box-shadow: 1px 1px 5px rgb(126, 126, 126);
+}
+
+@media screen and (min-width: 1024px){
+   .parent{
+        width: 70%;
+   }
+   .item{
+        width: 8vmax;
+        font-size: 1.2em;   
+    }
+
+    #one{
+        font-size: 1.3em;
+    }
+
+    .two{
+        font-size: 2rem;
+    }
+
+    .para{
+        width: 70%;
+    }
+    #para{
+        padding:1vw 1vw 1vw 1vw;
+    }
+
+    .list{
+        width: 70%;
+    }
+    .one-para{
+        width: 70%
+    }
+}
